@@ -1,4 +1,4 @@
-<img src="https://images.placeholders.dev/?width=820&height=100&text=%F0%9F%9A%80%20S5%20TOOLS&bgColor=rgba(125,43,219,1)&fontSize=30&textColor=rgba(255,%20255,%20255,1)&fontFamily=poppins&fontWeight=500" alt="S5 Tools Logo">
+<img src="https://images.placeholders.dev/?width=820&height=100&text=Nautev&bgColor=rgba(125,43,219,1)&fontSize=30&textColor=rgba(255,%20255,%20255,1)&fontFamily=poppins&fontWeight=500" alt="Nautev">
 
 # Nautev: No-Code Web Builder
 
