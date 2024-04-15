@@ -6,10 +6,10 @@ settings:
 
 dependencies:
   grapesjs:
-    specifier: ^0.21.10
+    specifier: 0.21.10
     version: 0.21.10
   grapesjs-preset-webpage:
-    specifier: ^1.0.3
+    specifier: 1.0.3
     version: 1.0.3
   grapesjs-tailwind:
     specifier: 1.0.7
