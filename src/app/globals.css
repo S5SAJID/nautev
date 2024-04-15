@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-btn {
+    @apply bg-white-500/40 cursor-pointer hover:bg-white-500 rounded;
+}

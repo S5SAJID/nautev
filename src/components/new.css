@@ -1,0 +1,37 @@
+.gjs-pn-panel {
+    position: relative !important;
+}
+.panel__switcher {
+    position: initial;
+}
+.gjs-one-bg, .bg-dark {
+    background: #222;
+}
+.gjs-four-color {
+    color: #30a7ff;
+}
+
+.navbar-btns {
+    background: transparent;
+}
+
+.navbar-btns .gjs-pn-btn {
+    @apply bg-white-900 rounded-md px-2
+}
+.gjs-mdl-dialog {
+    background: #222;
+    @apply rounded-xl;
+}
+.sidebar ::-webkit-scrollbar {
+    width: 0;
+}
+.gjs-field input,.gjs-field {
+    border-radius: 20px;
+    @apply px-1 rounded-lg;
+}
+.gjs-field input:focus {
+    outline: 1.5px solid#30a7ff;
+}
+:root {
+    --gjs-quaternary-color: hsl(194, 60%, 50%);
+}
