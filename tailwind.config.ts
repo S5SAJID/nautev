@@ -8,6 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      "animation": {
+        shimmer: "shimmer 2s linear infinite"
+      },
+      "keyframes": {
+        shimmer: {
+          from: {
+            "backgroundPosition": "0 0"
+          },
+          to: {
+            "backgroundPosition": "-200% 0"
+          }
+        }
+      },
       colors: {
         black: {
           100: "#d2d2d2",
@@ -26,10 +39,11 @@ const config: Config = {
           700: "#999999",
           800: "#666666",
           900: "#333333"
-      },
+        },
       },
       fontFamily: {
-        'space': "Space Grotesk"
+        'space': "Space Grotesk",
+        'dm-sans': "DM Sans 9pt",
       }
     },
   },

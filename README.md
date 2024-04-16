@@ -4,6 +4,8 @@
 
 Nautev is a revolutionary no-code web-building platform that empowers users to create stunning websites without writing a single line of code. With Nautev, unleash your creativity and bring your ideas to life with ease.
 
+<img src="./public/images/home.jpeg" alt="Nautev">
+
 ## Key Features
 
 - **Intuitive Drag-and-Drop Interface:** Build your website effortlessly by simply dragging and dropping elements onto the canvas.
