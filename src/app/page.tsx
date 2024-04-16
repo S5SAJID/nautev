@@ -37,6 +37,26 @@ export default function Home() {
 
       <LampDemo />
 
+
+
+
+      <footer className="rounded-lg shadow">
+        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div className="sm:flex sm:items-center sm:justify-between">
+            <a href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+              <h2 className="logo text-xl text-neutral-200">
+                <span className="font-bold bg-gradient-to-r text-xl from-cyan-400 to-blue-500 text-transparent bg-clip-text">N</span>
+                autev
+              </h2>
+            </a>
+            <h2 className="text-neutral-300 uppercase">Project By <a href="http://s5sajid.github.io" target="_blank"><span className="underline decoration-cyan-400">S5SAJID</span></a></h2>
+          </div>
+          <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+          <span className="block text-sm sm:text-center text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">S5SAJID</a>. All Rights Reserved.</span>
+        </div>
+      </footer>
+
+
     </main>
   );
 }
