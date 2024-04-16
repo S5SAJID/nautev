@@ -1,5 +1,3 @@
-import EditorComponent from "@/components/editor";
-import Navbar from "@/components/navbar";
 import NewEditor from "@/components/newEditor";
 
 export default function Home() {
