@@ -14,6 +14,9 @@ export default function NewEditor() {
         if (!firsttime) {
             firsttime = true
             const editor = grapesjs.init({
+                selectorManager: {
+                    appendTo: ".selectors"
+                },
                 storageManager: false,
                 container: '.left_panel',
                 height: '85 vh',
@@ -69,7 +72,10 @@ export default function NewEditor() {
                     <div className="panel__switcher"></div>
                     <div className="right_panel overflow-hidden layers h-full"></div>
                     <div className="blocks rounded overflow-scroll overflow-x-hidden h-full"></div>
-                    <div className="styles overflow-hidden rounded h-full"></div>
+                    <div className="overflow-hidden styles-container rounded h-full">
+                        <div className="styles"></div>
+                        <div className="selectors h-min"></div>
+                    </div>
                     <div className="trails overflow-sc rounded h-full"></div>
                 </div>
             </div>

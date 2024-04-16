@@ -16,7 +16,7 @@ export const commands = [
     },
     {
         name: 'show-style',
-        selector: '.styles'
+        selector: '.styles-container'
     },
     {
         name: 'show-block',
@@ -156,7 +156,12 @@ export const defaultEditorPanels: PanelProps[] = [
                 id: "visibility",
                 label: "Toggle Borders",
                 command: "sw-visibility"
-            }
+            },
+            {
+                id: "preview",
+                label: "Preview",
+                command: "core:preview"
+            },
         ]
     },
     {
