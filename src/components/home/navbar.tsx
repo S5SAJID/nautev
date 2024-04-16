@@ -1,6 +1,6 @@
 export default function HomeNavbar() {
     return (
-        <nav className="font-space py-3 bg-black-900/40 backdrop-blur-lg border-b border-b-neutral-500/50">
+        <nav className="fixed top-0 left-0 right-0 z-30 font-space py-3 bg-black-900/40 backdrop-blur-lg border-b border-b-neutral-500/50">
         <div className="container mx-auto flex items-center justify-between">
           <h2 className="logo text-xl text-neutral-200">
             <span className="font-bold bg-gradient-to-r text-xl from-cyan-400 to-blue-500 text-transparent bg-clip-text">N</span>

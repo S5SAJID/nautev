@@ -1,10 +1,8 @@
-<img src="https://images.placeholders.dev/?width=820&height=100&text=Nautev&bgColor=rgba(125,43,219,1)&fontSize=30&textColor=rgba(255,%20255,%20255,1)&fontFamily=poppins&fontWeight=500" alt="Nautev">
-
 # Nautev: No-Code Web Builder
+<img src="./public/images/home.jpeg" alt="Nautev">
 
 Nautev is a revolutionary no-code web-building platform that empowers users to create stunning websites without writing a single line of code. With Nautev, unleash your creativity and bring your ideas to life with ease.
 
-<img src="./public/images/home.jpeg" alt="Nautev">
 
 ## Key Features
 
